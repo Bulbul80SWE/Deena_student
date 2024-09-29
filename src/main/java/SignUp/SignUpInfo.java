@@ -1,6 +1,7 @@
 package SignUp;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
@@ -17,6 +18,7 @@ public class SignUpInfo {
     private String userName;
     private String studentName;
     private String phone;
+    @Id
     private String rollNo;
     private String password;
     private String institue;
