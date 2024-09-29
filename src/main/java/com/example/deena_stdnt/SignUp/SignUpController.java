@@ -1,4 +1,4 @@
-package SignUp;
+package com.example.deena_stdnt.SignUp;
 
 import org.springframework.web.bind.annotation.RestController;
 
