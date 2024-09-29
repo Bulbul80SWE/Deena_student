@@ -1,4 +1,4 @@
-package SignUp;
+package com.example.deena_stdnt.SignUp;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -21,6 +21,6 @@ public class SignUpInfo {
     @Id
     private String rollNo;
     private String password;
-    private String institue;
+    private String institute;
     private String branch;
 }
