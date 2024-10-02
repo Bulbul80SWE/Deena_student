@@ -1,0 +1,14 @@
+### Send POST request with json body
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+  "institute": "PATH-FINDER",
+  "branch": "Jatrabari",
+  "userName": "Musfiqur",
+  "email": "musfiqur.utsho@gmail.com",
+  "studentName": "Musfiqur Rahman",
+  "phone": "01752475486",
+  "rollNo": "01",
+  "password": "1234"
+}

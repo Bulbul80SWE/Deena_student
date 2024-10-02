@@ -5,9 +5,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class LoginService {
 
-    private final LoginRepository repository;
-
-    public LoginService (LoginRepository repository) {
-        this.repository = repository;
-    }
+//    private final LoginRepository repository;
+//
+//    public LoginService (LoginRepository repository) {
+//        this.repository = repository;
+//    }
 }
